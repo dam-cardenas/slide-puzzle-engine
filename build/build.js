@@ -8,13 +8,19 @@ new Generator({
 }).generate()
 
 
-const settings = buildSettings({
+const ESM = buildSettings({
   minify: true,
   entryPoints: ['src/index.ts'],
-  outfile: 'dist/bundle.js',
+  outfile: 'dist/index.esm.js',
   format: 'esm',
-  target: 'es2016',
-  allowOverwrite: true,
 })
 
-build(settings)
+const CJS = buildSettings({
+  minify: true,
+  entryPoints: ['src/index.ts'],
+  outfile: 'dist/index.js',
+  format: 'cjs',
+})
+
+build(ESM)
+build(CJS)

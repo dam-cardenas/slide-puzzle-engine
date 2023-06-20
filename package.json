@@ -2,8 +2,10 @@
   "name": "puzzler",
   "version": "1.0.0",
   "description": "simple puzzle game engine",
-  "main": "index.js",
   "files": ["dist/*"],
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "build": "node ./build/build.js",
     "test": "echo \"Error: no test specified\" && exit 1"

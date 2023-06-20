@@ -4,9 +4,9 @@ module.exports = {
   buildSettings(options) {
     return {
       bundle: true,
-      plugins: [
-        esbuildPluginTsc({ force: true }),
-      ],
+      allowOverwrite: true,
+      target: 'es2016',
+      plugins: [ esbuildPluginTsc({ force: true }) ],
       ...options
     }
   }
