@@ -14,7 +14,7 @@ const puzzleString = (board: Board) => {
 }
 
 const getPrompt = (movement = false) => {
-  return `Puzzler:
+  return `
 ${puzzleString(gameBoard)}
 ${movement ? 'movement>\n' : ''}`
 }
@@ -22,14 +22,17 @@ ${movement ? 'movement>\n' : ''}`
 const readline = createInterface({
   input: process.stdin,
   output: process.stdout,
-  prompt: `Puzzler:
+  prompt: `
 ${puzzleString(gameBoard)}
 movement>
 `
 });
 
 console.log(`
-controls:
+Puzzler!
+
+controls...
+
 press:
    ,---,
    | W |
