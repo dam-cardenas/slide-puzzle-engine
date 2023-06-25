@@ -6,6 +6,7 @@ module.exports = {
       bundle: true,
       allowOverwrite: true,
       target: 'es2016',
+      sourcemap: true,
       plugins: [ esbuildPluginTsc({ force: true }) ],
       ...options
     }

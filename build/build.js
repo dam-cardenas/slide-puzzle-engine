@@ -11,7 +11,7 @@ new Generator({
 const ESM = buildSettings({
   minify: true,
   entryPoints: ['src/index.ts'],
-  outfile: 'dist/index.esm.js',
+  outfile: 'dist/index.esm.mjs',
   format: 'esm',
 })
 
@@ -22,5 +22,14 @@ const CJS = buildSettings({
   format: 'cjs',
 })
 
+const IIFE = buildSettings({
+  minify: true,
+  entryPoints: ['src/index.ts'],
+  outfile: 'dist/index.iife.js',
+  format: 'iife',
+  globalName: 'Puzzler',
+})
+
 build(ESM)
 build(CJS)
+build(IIFE)
