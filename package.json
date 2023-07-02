@@ -8,10 +8,11 @@
     "package.json",
     "README.md"
   ],
-  "module": "./dist/index.iife.js",
-  "main": "./dist/index.iife.js",
+  "module": "./dist/index.esm.mjs",
+  "main": "./dist/index.esm.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
+    "build:dts": "tsc -d --declarationDir dist/ --declarationMap --emitDeclarationOnly",
     "build": "node ./build/build.js",
     "prepublish": "npm run build",
     "test": "node test.js"

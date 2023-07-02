@@ -1,11 +1,11 @@
 const { build } = require('esbuild')
 const { buildSettings } = require('./settings.js')
-const { Generator } = require('npm-dts');
+// const { Generator } = require('npm-dts');
 
-new Generator({
-  entry: 'src/index.ts',
-  output: 'dist/index.d.ts',
-}).generate()
+// new Generator({
+//   entry: 'src/index.ts',
+//   output: 'dist/index.d.ts',
+// }).generate()
 
 
 const ESM = buildSettings({
