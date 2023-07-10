@@ -29,7 +29,7 @@ movement>
 });
 
 console.log(`
-Puzzler!
+SPE TEST!
 
 controls...
 

@@ -27,7 +27,7 @@ const IIFE = buildSettings({
   entryPoints: ['src/index.ts'],
   outfile: 'dist/index.iife.js',
   format: 'iife',
-  globalName: 'Puzzler',
+  globalName: 'SlidePuzzleEngine',
 })
 
 build(ESM)
