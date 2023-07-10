@@ -63,7 +63,7 @@ console.log(puzzle.to2dArray())
 You can move across the board by swapping positions between the empty space and a token. To do this, use the **move()** function and the **Direction** enum.
 
 
-#### To import direcions:
+#### import directions:
 
 ##### EsModule 
 ```js
@@ -78,7 +78,7 @@ const { Direction } = require('slide-puzzle-engine/dist')
 const { Direction } = window.SlidePuzzleEngine
 ```
 
-#### To use move()
+#### Use move()
 
 ```js
 puzzle.move([
