@@ -94,3 +94,5 @@ if (puzzle.solved) {
   // add your magic here
 }
 ```
+## Buy me a Beer
+![beer qr](https://raw.githubusercontent.com/dam-cardenas/slide-puzzle-engine/main/readmeResources/bmc_qr.png)
