@@ -17,7 +17,7 @@ const { Board } = require('slide-puzzle-engine/dist');
 ### IIFE (web)
 ```html
 <!-- inside <head> -->
-<script src='https://unpkg.com/slide-puzzle-engine@1.0.3/dist/index.iife.js' type="text/javascript"></script>
+<script src='https://unpkg.com/slide-puzzle-engine@1.0.4/dist/index.iife.js' type="text/javascript"></script>
 ```
 
 ## CLI test
@@ -26,7 +26,7 @@ By executing this command you will start a test of the engine on the command lin
 ```bash
 npm test
 ```
-![Test image](./readmeResources/resource-1.png)
+![Test image](https://raw.githubusercontent.com/dam-cardenas/slide-puzzle-engine/main/readmeResources/resource-1.png)
 
 
 ## How to use it
