@@ -17,7 +17,7 @@ const { Board } = require('slide-puzzle-engine/dist');
 ### IIFE (web)
 ```html
 <!-- inside <head> -->
-<script src='https://unpkg.com/slide-puzzle-engine@1.0.4/dist/index.iife.js' type="text/javascript"></script>
+<script src='https://unpkg.com/slide-puzzle-engine@1.0.8/dist/index.iife.js' type="text/javascript"></script>
 ```
 
 ## CLI test
