@@ -1,6 +1,6 @@
 {
   "name": "slide-puzzle-engine",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "simple slide puzzle engine",
   "files": [
     "dist",
@@ -29,7 +29,7 @@
     "web"
   ],
   "author": "Daqaros",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/dam-cardenas/puzzler/issues"
   },
